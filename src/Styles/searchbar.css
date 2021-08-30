@@ -1,0 +1,36 @@
+.searchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.searchbar input {
+    font-family: 'Noto Sans JP', sans-serif;
+    border: none;
+    color: black;
+    background-color: #98D8D8;
+    border-bottom: 1px solid black;
+}
+
+.searchbar input:focus {
+    outline: none;
+}
+
+.searchbar input:focus{
+    border: none;
+    background-color: #98D8D8;
+}
+
+.searchbar button {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    border: none;
+    background-color: #98d898;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    margin-left: 1rem;
+    
+}

@@ -1,0 +1,26 @@
+.detailed-card {
+    display: flex;
+    color: black;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 10px 10px rgba(75, 75, 75, 0.281);
+}
+
+.detailed-card img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.details {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.details div {
+    margin: 1rem;
+}

@@ -1,0 +1,10 @@
+.favorites-page {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.favorites-pokemon{
+    display: flex;
+    justify-content: center;
+}
